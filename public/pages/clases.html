@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../assets/logos/logo-pestaña.png">
+    <title>Clases</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/pestañas.css">
+    <link rel="stylesheet" href="../css/clases.css">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="navbar1">
+            <a href="../index.html" class="mx-auto"><img class="logo" src="../assets/logos/logo.png"
+                    alt="Logo María José Núñez"></a>
+            <div class="dropdown">
+                <svg xmlns="http://www.w3.org/2000/svg" class="bi bi-person-circle usuario dropdown-toggle"
+                    role="button" data-bs-toggle="dropdown" aria-expanded="false" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
+                    <path fill-rule="evenodd"
+                        d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
+                </svg>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="login.html">Iniciar Sesión</a></li>
+                    <li><button class="dropdown-item" id="cerrarSesionBtn" onclick="cerrarSesion()">Cerrar
+                            Sesión</button></li>
+                </ul>
+            </div>
+        </div>
+        <nav class="navbar-expand-lg">
+            <a href="../index.html">Inicio</a>
+            <a href="./staff.html">Staff</a>
+            <a href="./clases.html">Clases</a>
+            <a href="./fotogalería.html">Fotogalería</a>
+            <a href="./alquiler-salas.html">Alquiler de salas</a>
+            <a href="./contacto.html">Contacto</a>
+            <a href="#" id="misClasesYPagosLink">Mis clases y pagos</a>
+        </nav>
+    </header>
+
+    <h1 class="titulo-pestaña">CLASES</h1>
+
+    <div class="container">
+        <h4>Introducción a la Danza y Preparatorio</h4>
+        <p>Estas clases ofrecen un espacio lúdico y educativo donde los pequeños exploran el mundo de la danza. Entre
+            los beneficios destacados se encuentran el estímulo del desarrollo motor y coordinación, la expresión
+            creativa a través del movimiento, la mejora del equilibrio y la postura, la promoción del trabajo en grupo y
+            el fomento de la confianza y la autoexpresión desde una edad temprana. Estas clases brindan a los niños una
+            introducción a la danza de manera divertida y educativa, sentando las bases para un futuro interés y aprecio
+            por las artes escénicas.</p>
+
+        <table class="table table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">Nivel</th>
+                    <th scope="col">Profesor</th>
+                    <th scope="col">Horarios</th>
+                </tr>
+            </thead>
+            <tbody class="table-group-divider">
+                <tr>
+                    <th scope="row">Introducción a la Danza</th>
+                    <td>María José Núñez</td>
+                    <td>Martes y Jueves de 18:30 a 19:30</td>
+                </tr>
+                <tr>
+                    <th scope="row">Preparatorio</th>
+                    <td>María José Núñez</td>
+                    <td>Martes y Jueves de 19:30 a 20:30</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container">
+        <h4>Danza Clásica</h4>
+        <p>El ballet ofrece una amplia gama de beneficios para la salud. Ayuda a mejorar la fuerza y la resistencia
+            muscular, así como la flexibilidad y el equilibrio. También promueve una buena postura, alineación corporal
+            y control del movimiento. El ballet fomenta la coordinación y la agilidad, así como el desarrollo de
+            habilidades motoras y la conciencia corporal. Además, practicar ballet puede ser una excelente forma de
+            ejercicio cardiovascular. A nivel mental, el ballet ayuda a mantener la concentración, el enfoque y la
+            disciplina, mientras que reduce el estrés y mejora la autoconfianza.</p>
+
+        <table class="table table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">Nivel</th>
+                    <th scope="col">Profesor</th>
+                    <th scope="col">Horarios</th>
+                </tr>
+            </thead>
+            <tbody class="table-group-divider">
+                <tr>
+                    <th scope="row">Pre Inicial</th>
+                    <td>María José Núñez</td>
+                    <td>Lunes y Miércoles de 19:30 a 20:30</td>
+                </tr>
+                <tr>
+                    <th scope="row">Inicial Niños</th>
+                    <td>Sol Bardagí</td>
+                    <td>Lunes y Jueves de 18:30 a 20:30 / Martes y Viernes de 18:30 a 20:30</td>
+                </tr>
+                <tr>
+                    <th scope="row">Inicial Juvenil</th>
+                    <td>María José Núñez</td>
+                    <td>Lunes, Miércoles y Viernes de 20:30 a 22:00 </td>
+                </tr>
+                <tr>
+                    <th scope="row">Inicial Adultos</th>
+                    <td>María José Núñez</td>
+                    <td>Martes y Jueves de 20:30 a 22:00</td>
+                </tr>
+                <tr>
+                    <th scope="row">Intermedio</th>
+                    <td>Alan García</td>
+                    <td>Martes, Jueves y Viernes de 16:00 a 17:30</td>
+                </tr>
+                <tr>
+                    <th scope="row">Intermedio / Avanzado</th>
+                    <td>María José Núñez</td>
+                    <td>Lunes, Martes y Jueves de 16:00 a 17:30</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container">
+        <h4>Danza Contemporánea</h4>
+        <p>La danza contemporánea se diferencia del resto por su enfoque en la libertad de expresión, la experimentación
+            y ruptura de las convenciones tradicionales. Combina técnicas y estilos diversos, incorpora movimiento libre
+            y emocional, y desafía los límites establecidos, creando una forma de arte única y vanguardista.</p>
+
+        <table class="table table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">Nivel</th>
+                    <th scope="col">Profesor</th>
+                    <th scope="col">Horarios</th>
+                </tr>
+            </thead>
+            <tbody class="table-group-divider">
+                <tr>
+                    <th scope="row">Niños</th>
+                    <td>Facundo Francia</td>
+                    <td>Viernes de 17:30 a 18:30</td>
+                </tr>
+                <tr>
+                    <th scope="row">Principiantes</th>
+                    <td>Facundo Francia</td>
+                    <td>Lunes y Miércoles de 20:30 a 22:00</td>
+                </tr>
+                <tr>
+                    <th scope="row">Intermedio</th>
+                    <td>Facundo Francia</td>
+                    <td>Lunes y Miércoles de 17:30 a 19:00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container">
+        <h4>Danza Jazz</h4>
+        <p>La danza jazz promueve el desarrollo de habilidades motoras, coordinación y flexibilidad. Además, permite
+            expresar emociones y liberar energía de manera creativa. También fomenta la disciplina, la concentración y
+            la expresión corporal. Ayuda a mejorar la postura, la memoria y la autoconfianza.</p>
+
+        <table class="table table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">Nivel</th>
+                    <th scope="col">Profesor</th>
+                    <th scope="col">Horarios</th>
+                </tr>
+            </thead>
+            <tbody class="table-group-divider">
+                <tr>
+                    <th scope="row">Infantil</th>
+                    <td>María José Núñez</td>
+                    <td>Lunes y Miércoles de 17:30 a 18:30</td>
+                </tr>
+                <tr>
+                    <th scope="row">Inicial</th>
+                    <td>Sol Bardagí</td>
+                    <td>Viernes de 17:30 a 19:00</td>
+                </tr>
+                <tr>
+                    <th scope="row">Juvenil</th>
+                    <td>María José Núñez</td>
+                    <td>Miércoles y Viernes de 16:00 a 17:30</td>
+                </tr>
+                <tr>
+                    <th scope="row">Intermedio</th>
+                    <td>Sol Bardagí</td>
+                    <td>Miércoles de 19:00 a 20:30 y Viernes de 20:30 a 22:00</td>
+                </tr>
+                <tr>
+                    <th scope="row">Avanzado</th>
+                    <td>Sol Bardagí</td>
+                    <td>Miércoles y Viernes de 16:00 a 17:30</td>
+                </tr>
+                <tr>
+                    <th scope="row">Jazz Contemporáneo</th>
+                    <td>Valentina Simoncelli</td>
+                    <td>Lunes y Miércoles de 17:30 a 18:30</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container">
+        <h4>Tap</h4>
+        <p>El tap es un gran ejercicio cardiovascular, aumenta la frecuencia cardíaca y es más agradable que correr
+            alrededor de la cuadra o en una caminadora. Además tonifica los principales grupos de musculares y es una
+            forma alegre y divertida de mantenerse en forma. Además, mejora tu equilibrio, saber dónde debe estar el
+            peso del cuerpo y cuándo cambiarlo de un pie al otro es esencial para una técnica de Tap adecuada.
+            Te dará mejor tono muscular, equilibrio, coordinación y control y tendrás menor riesgo de caídas.</p>
+
+        <table class="table table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">Nivel</th>
+                    <th scope="col">Profesor</th>
+                    <th scope="col">Horarios</th>
+                </tr>
+            </thead>
+            <tbody class="table-group-divider">
+                <tr>
+                    <th scope="row">Niños</th>
+                    <td>María José Núñez</td>
+                    <td>Martes y Viernes de 17:30 a 18:30</td>
+                </tr>
+                <tr>
+                    <th scope="row">Principiantes</th>
+                    <td>María José Núñez</td>
+                    <td>Miércoles de 18:30 a 19:30 y Viernes de 19:30 a 20:30</td>
+                </tr>
+                <tr>
+                    <th scope="row">Intermedio</th>
+                    <td>María José Núñez</td>
+                    <td>Lunes y Viernes de 18:30 a 19:30</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container">
+        <h4>Street Dance</h4>
+        <p>El Street Dance fomenta la autoconfianza, la creatividad y la conexión social. Es un ejercicio cardiovascular
+            excelente, lo que significa que es efectiva para quemar calorías, aumentar la resistencia y mejorar la salud
+            en general. Además, también puede mejorar la flexibilidad y la movilidad articular, lo que
+            puede ayudar a prevenir lesiones y mantener el cuerpo en buena forma.</p>
+
+        <table class="table table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">Nivel</th>
+                    <th scope="col">Profesor</th>
+                    <th scope="col">Horarios</th>
+                </tr>
+            </thead>
+            <tbody class="table-group-divider">
+                <tr>
+                    <th scope="row">Niños</th>
+                    <td>Julieta Andino</td>
+                    <td>Lunes y Viernes de 18:30 a 19:30</td>
+                </tr>
+                <tr>
+                    <th scope="row">Principiantes</th>
+                    <td>Julieta Andino</td>
+                    <td>Jueves de 20:30 a 22:00</td>
+                </tr>
+                <tr>
+                    <th scope="row">Intermedio</th>
+                    <td>Julieta Andino</td>
+                    <td>Martes y Jueves de 17:30 a 19:00</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container">
+        <h4>Acrotela</h4>
+        <p>En Acrotela se trabaja mucho la coordinación, la fuerza y la flexibilidad. Pero también se trabaja mucho lo
+            que es el trabajo en equipo y el cuidado entre todos.</p>
+
+        <table class="table table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">Nivel</th>
+                    <th scope="col">Profesor</th>
+                    <th scope="col">Horarios</th>
+                </tr>
+            </thead>
+            <tbody class="table-group-divider">
+                <tr>
+                    <th scope="row">Minis</th>
+                    <td>Pia Moroncini</td>
+                    <td>Lunes y Miércoles de 18:30 a 19:30</td>
+                </tr>
+                <tr>
+                    <th scope="row">Kids</th>
+                    <td>Pia Moroncini</td>
+                    <td>Martes y Jueves de 18:30 a 19:30</td>
+                </tr>
+                <tr>
+                    <th scope="row">Jóvenes y Adultos</th>
+                    <td>Pia Moroncini</td>
+                    <td>Miércoles y Viernes de 19:30 a 20:30</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container">
+        <h4>Yoga Integral</h4>
+        <p>Los beneficios del yoga incluyen mejora en la flexibilidad, reducción del estrés, fortalecimiento muscular,
+            aumento de la conciencia corporal y mental, mejor postura, y promoción de la relajación. Aporta
+            significativamente al bienestar físico y mental.</p>
+
+        <table class="table table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">Nivel</th>
+                    <th scope="col">Profesor</th>
+                    <th scope="col">Horarios</th>
+                </tr>
+            </thead>
+            <tbody class="table-group-divider">
+                <tr>
+                    <th scope="row">Todos</th>
+                    <td>Pia Moroncini</td>
+                    <td>Lunes y Miércoles de 18:30 a 19:30</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container">
+        <h4>Comedia Musical</h4>
+        <p>
+            La comedia musical fusiona el arte del teatro, la música y la danza, ofreciendo una experiencia escénica
+            única y vibrante. Sus principales beneficios incluyen el entretenimiento diverso y atractivo, la expresión
+            artística integral que combina actuación y música, y la capacidad de transmitir mensajes emocionales de
+            manera impactante. Además, participar en producciones de comedia musical puede fomentar el trabajo en
+            equipo, mejorar las habilidades de actuación, canto y baile, y crear conexiones significativas entre
+            artistas y audiencias.</p>
+
+        <table class="table table-striped">
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">Nivel</th>
+                    <th scope="col">Profesor</th>
+                    <th scope="col">Horarios</th>
+                </tr>
+            </thead>
+            <tbody class="table-group-divider">
+                <tr>
+                    <th scope="row">Todos</th>
+                    <td>Matías Quiroga</td>
+                    <td>Martes y Jueves de 19:00 a 20:30</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <footer class="row-cols-1 row-cols-sm-2 row-cols-md-5 border-top">
+        <div class="col">
+            <a href="../index.html" class="d-flex align-items-center link-body-emphasis">
+                <img src="../assets/logos/logo-sin-fondo.png" alt="Logo María José Núñez" width="70%">
+            </a>
+
+        </div>
+
+        <div class="col mt-3 mb-3">
+            <h5>DIRECCIÓN</h5>
+            <p class="nav flex-column">
+                Ibarbalz 1052, Barrio General Paz
+            </p>
+        </div>
+
+        <div class="col mt-3 mb-3">
+            <h5>HORARIOS DE ATENCIÓN</h5>
+            <p class="nav flex-column">
+                Lunes a Viernes de 17 a 21 hs
+            </p>
+        </div>
+
+        <div class="col mt-3 mb-3">
+            <h5>CONTACTANOS</h5>
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a class="contacto nav-link p-0 text-body-secondary" href="tel: 3515329273">
+                        <img src="../assets/iconos/tel.png" alt="" style="width: 3.5%"> +54 9 351 532-9273</a>
+                </li>
+                <li class="nav-item">
+                    <a class="contacto nav-link p-0 text-body-secondary" href="mailto: estudiodanzamjn@gmail.com">
+                        <img src="../assets/iconos/mail.png" alt="" style="width: 5%">
+                        estudiodanzamjn@gmail.com</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="col mt-3 mb-3">
+            <ul class="nav flex-row">
+                <li class="nav-item"><a target="_blank" href="https://www.instagram.com/estudiodanzamjn"
+                        title="Instagram" class="nav-link p-0 text-body-secondary">
+                        <img class="red-social" src="../assets/iconos/ig.png" alt=""></a>
+                </li>
+                <li class="nav-item"><a target="_blank" href="https://www.facebook.com/estudiodanzamjn" title="Facebook"
+                        class="nav-link p-0 text-body-secondary">
+                        <img class="red-social" src="../assets/iconos/fb.png" alt=""></a>
+                </li>
+                <li class="nav-item"><a target="_blank" href="https://api.whatsapp.com/send/?phone=5493515329273"
+                        title="Whatsapp" class="nav-link p-0 text-body-secondary">
+                        <img class="red-social" src="../assets/iconos/ws.png" alt=""></a>
+                </li>
+
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="../js/alumno.js"></script>
+    <script src="../js/logout.js"></script>
+</body>
+
+</html>
